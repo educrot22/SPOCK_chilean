@@ -29,6 +29,6 @@ Use the package manager **git clone** to install SPOCK_chilean::
 
     cd spock_chilean
 
-    python setup.py install
+    pip install -r requirements.txt
 
 
