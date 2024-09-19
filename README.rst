@@ -1,6 +1,3 @@
-.. image:: https://travis-ci.com/educrot/SPOCK_chilean.svg?branch=master&status=failed
-    :target: https://travis-ci.com/educrot/SPOCK_chilean
-
 .. image:: https://img.shields.io/badge/docs-dev-green.svg
     :target: https://educrot.github.io/SPOCK_chilean/index.html
 
@@ -30,5 +27,7 @@ Use the package manager **git clone** to install SPOCK_chilean::
     cd spock_chilean
 
     pip install -r requirements.txt
+
+    pip install .
 
 

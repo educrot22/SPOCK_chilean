@@ -21,4 +21,6 @@ Install *SPOCK* locally::
 
     pip install -r requirements.txt
 
+    pip install .
+
 

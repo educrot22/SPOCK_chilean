@@ -574,8 +574,10 @@ class chilean_time:
         check_ok = False
         catalog_data = Catalogs.query_object(coords_str, radius=6 * np.sqrt(2) * u.arcminute, catalog="Gaia")
         df = pd.read_csv(path_spock_chilean + '/speculoos_target_list_chilean_nights.txt', delimiter=' ')
-        idx_speculoos_found = [np.where((catalog_data['designation'] == 'Gaia DR2 '
-                                         + str(gaia_id))) for gaia_id in df['Gaia_ID']]
+        #idx_speculoos_found = [np.where((catalog_data['designation'] == 'Gaia DR2 '
+        #                                 + str(gaia_id)))[0] for gaia_id in df['Gaia_ID']]
+        idx_speculoos_found = [np.any(catalog_data['designation'] == 'Gaia DR2 ' + str(gaia_id))
+                                for gaia_id in df['Gaia_ID']]
         if np.any(idx_speculoos_found):
             raise ValueError('ERROR: There is a SPECULOOS target in this field, please change your coordinates')
         else:

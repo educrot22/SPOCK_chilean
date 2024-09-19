@@ -5,8 +5,6 @@ Chilean_SPOCKapp.ipynb
 Chilean_time_SSO.docx
 README.rst
 WD_vs_speculoos_filters.png
-calendar_chilean.xlsx
-calendar_chilean_summer2021.xlsx
 run.py
 setup.py
 .idea/$CACHE_FILE$
@@ -24,6 +22,7 @@ SPOCK_chilean/.DS_Store
 SPOCK_chilean/ETC.py
 SPOCK_chilean/__init__.py
 SPOCK_chilean/make_night_plans.py
+SPOCK_chilean/mphot.py
 SPOCK_chilean/speculoos_target_list_chilean_nights.txt
 SPOCK_chilean/txt_files.py
 SPOCK_chilean.egg-info/PKG-INFO

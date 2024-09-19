@@ -3,7 +3,9 @@ import numpy as np
 from astropy.io import ascii
 from astropy.table import Table
 import sys
-sys.path.append("./SPOCK_chilean/")
+# Construct the absolute path
+path_to_directory = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+sys.path.append(path_to_directory)
 import mphot
 from SPOCK_chilean import path_spock_chilean
 

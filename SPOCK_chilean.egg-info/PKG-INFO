@@ -1,45 +1,57 @@
-Metadata-Version: 1.2
-Name: SPOCK-chilean
-Version: 0.0.1
+Metadata-Version: 2.1
+Name: SPOCK_chilean
+Version: 1.0.1
 Summary: Speculoos Observatory SChedule maKer for chilean night on SPECULOOS South Observatory
 Home-page: https://github.com/educrot/SPOCK_chilean/
 Author: Elsa Ducrot
 Author-email: educrot@uliege.be
-License: UNKNOWN
-Description: .. image:: https://travis-ci.com/educrot/SPOCK_chilean.svg?branch=master&status=failed
-            :target: https://travis-ci.com/educrot/SPOCK_chilean
-        
-        .. image:: https://img.shields.io/badge/docs-dev-green.svg
-            :target: https://educrot.github.io/SPOCK_chilean/index.html
-        
-        
-        **SPOCK** (Speculoos Observatory SChedule maKer) is a python package developed to handle
-        the planification of observation of the SPECULOOS telescopes. The project SPECULOOS -Search for habitable Planets EClipsing ULtra-cOOl Stars –
-        searches for potentially habitable exoplanets around the smallest and coolest stars
-        of the solar neighborhood `Link to site <https://www.speculoos.uliege.be/cms/c_4259452/fr/speculoos>`_.
-        
-        
-        
-        Documentation SPOCK_chilean
-        -----------------------------
-        
-        You will find complete documentation on the `SPOCK chilean documentation site`_.
-        
-        .. _SPOCK chilean documentation site : https://educrot.github.io/SPOCK_chilean/index.html
-        
-        
-        Installation
-        ---------------------
-        
-        Use the package manager **git clone** to install SPOCK_chilean::
-        
-            git clone https://github.com/educrot/SPOCK_chilean.git
-        
-            cd spock_chilean
-        
-            python setup.py install
-        
-        
-        
-Platform: UNKNOWN
 Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: astroquery
+Requires-Dist: astroplan
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: datetime
+Requires-Dist: pyaml
+Requires-Dist: python-docx
+Requires-Dist: plotly
+Requires-Dist: scipy<=1.11.4,>=1.6.1
+Requires-Dist: xlrd
+Requires-Dist: colorama
+Requires-Dist: ipython
+Requires-Dist: termcolor
+
+.. image:: https://img.shields.io/badge/docs-dev-green.svg
+    :target: https://educrot.github.io/SPOCK_chilean/index.html
+
+
+**SPOCK** (Speculoos Observatory SChedule maKer) is a python package developed to handle
+the planification of observation of the SPECULOOS telescopes. The project SPECULOOS -Search for habitable Planets EClipsing ULtra-cOOl Stars –
+searches for potentially habitable exoplanets around the smallest and coolest stars
+of the solar neighborhood `Link to site <https://www.speculoos.uliege.be/cms/c_4259452/fr/speculoos>`_.
+
+
+
+Documentation SPOCK_chilean
+-----------------------------
+
+You will find complete documentation on the `SPOCK chilean documentation site`_.
+
+.. _SPOCK chilean documentation site : https://educrot.github.io/SPOCK_chilean/index.html
+
+
+Installation
+---------------------
+
+Use the package manager **git clone** to install SPOCK_chilean::
+
+    git clone https://github.com/educrot22/SPOCK_chilean.git
+
+    cd spock_chilean
+
+    pip install -r requirements.txt
+
+    pip install .
+
+
