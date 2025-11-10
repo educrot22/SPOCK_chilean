@@ -1,0 +1,2 @@
+target "start time (UTC)" "end time (UTC)" "duration (minutes)" "ra (h)" "ra (m)" "ra (s)" "dec (d)" "dec (m)" "dec (s)" configuration
+"RR Cae" "2025-10-18 02:00:00.000" "2025-10-18 08:45:00.000" 405.0 4.0 21.0 4.80000000000139 -48.0 -38.0 -59.999999999994884 "{'filt': ""g'"", 'texp': 20}"

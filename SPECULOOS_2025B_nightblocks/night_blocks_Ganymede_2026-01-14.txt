@@ -1,0 +1,2 @@
+target "start time (UTC)" "end time (UTC)" "duration (minutes)" "ra (h)" "ra (m)" "ra (s)" "dec (d)" "dec (m)" "dec (s)" configuration
+ch_Em01_110111_020_ML00031 "2026-01-15 01:02:00.000" "2026-01-15 08:40:00.000" 457.99999952316284 7.0 25.0 15.795490039203841 -22.0 -6.0 -0.6440030640015948 "{'filt': ""r'"", 'texp': 60}"

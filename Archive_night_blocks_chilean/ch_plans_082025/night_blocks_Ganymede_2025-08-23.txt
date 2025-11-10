@@ -1,0 +1,2 @@
+target "start time (UTC)" "end time (UTC)" "duration (minutes)" "ra (h)" "ra (m)" "ra (s)" "dec (d)" "dec (m)" "dec (s)" configuration
+ch_HS2231+2441 "2025-08-24 02:35:00" "2025-08-24 08:35:00" 360.0 22.0 34.0 21.483120000023916 24.0 56.0 57.39360000000403 "{'filt': ""r'"", 'texp': 30.0}"

@@ -1,0 +1,2 @@
+target "start time (UTC)" "end time (UTC)" "duration (minutes)" "ra (h)" "ra (m)" "ra (s)" "dec (d)" "dec (m)" "dec (s)" configuration
+ch_Em01_271135 "2025-07-07 23:28:00.000" "2025-07-08 09:28:00.000" 599.9999997764826 18.0 1.0 6.309274008007435 -45.0 -44.0 -5.680456440001649 "{'filt': ""r'"", 'texp': 30}"

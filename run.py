@@ -1,6 +1,13 @@
 import pandas as pd
+import SPOCK_chilean
 from SPOCK_chilean.make_night_plans import chilean_time
 import SPOCK_chilean.ETC as ETC
+from astropy.coordinates import SkyCoord, get_sun, AltAz, EarthLocation
+from astroplan import TimeConstraint, Observer, FixedTarget
+from astropy import units as u
+
+
+#----------------------------------
 
 # set in advance with the planning with SSO team
 telescope = 'Ganymede' # name of telescope allocated
@@ -50,6 +57,24 @@ chilean_plans.make_night_block(target_chilean)
 chilean_plans.check_night_blocks()
 
 print()
+
+
+
+#------ check set time
+
+date = '2025-11-16 15:00:00'
+location = EarthLocation.from_geodetic(-70.40300000000002 * u.deg, -24.625199999999996 * u.deg,
+                                                    2635.0000000009704 * u.m)
+observatory = Observer(location=location, name="SSO", timezone="UTC")
+
+target = FixedTarget(coord=SkyCoord(ra=352.1984854532512 * u.degree,
+                                          dec=05.2483986254175 * u.degree),name='Ch_29-38')
+
+set_time = observatory.target_set_time(date, target,which='next', horizon=23 * u.deg)
+
+print()
+
+
 
 
 

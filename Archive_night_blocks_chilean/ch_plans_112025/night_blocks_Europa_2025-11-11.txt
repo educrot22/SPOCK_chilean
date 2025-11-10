@@ -1,0 +1,2 @@
+target "start time (UTC)" "end time (UTC)" "duration (minutes)" "ra (h)" "ra (m)" "ra (s)" "dec (d)" "dec (m)" "dec (s)" configuration
+Ch_G29-38 "2025-11-11 23:42:07.624" "2025-11-12 05:10:00.000" 327.8729335963726 23.0 28.0 47.63650878029864 5.0 14.0 54.23505150299967 "{'filt': ""g'"", 'texp': 14}"
